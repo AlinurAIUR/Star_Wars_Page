@@ -7,8 +7,11 @@ import PersonDetails from '../person-details'
 import ErrorIndicator from "../error-indicator";
 import PeoplePage from "../people-page";
 import './app.css'
+import SwapiService from "../../services/swapi-service";
 
 export default class App extends Component{
+
+    swapiService = new SwapiService()
 
     state = {
         selectedPerson: null,
@@ -28,8 +31,6 @@ export default class App extends Component{
                 <Header/>
                 <RandomPlanet/>
                 <PeoplePage />
-
-
             </div>
         )
     }
