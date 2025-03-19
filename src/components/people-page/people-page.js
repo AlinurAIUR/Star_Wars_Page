@@ -6,7 +6,7 @@ import ErrorBoundary from "../error-boundary"
 
 import './people-page.css'
 import SwapiService from "../../services/swapi-service"
-import Row from "../Row";
+import Row from "../row";
 
 
 export default class PeoplePage extends Component {
