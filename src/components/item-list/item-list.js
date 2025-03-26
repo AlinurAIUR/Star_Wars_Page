@@ -30,7 +30,9 @@ import './item-list.css'
             )
         }
 
-
+ItemList.defaultProps = {
+    onItemSelected: () => {}
+}
 
 
 export default ItemList

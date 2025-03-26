@@ -13,4 +13,4 @@ const PlanetDetails = (props) => {
     )
 }
 
-export default withSwapiService(PlanetDetails)
+export default withSwapiService(mapMethodsToProps)(PlanetDetails)
