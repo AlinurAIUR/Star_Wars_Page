@@ -47,7 +47,7 @@ export default class DummySwapiService {
             passengers: 50,
             cargoCapacity: 100
         }
-    ];
+    ]
 
     getAllPeople = async () => {
         return this._people
@@ -71,7 +71,7 @@ export default class DummySwapiService {
 
     getStarship = async () => {
         return this._starships[0]
-    }
+    };
 
     getPersonImage = () => {
         return `https://placeimg.com/400/500/people`

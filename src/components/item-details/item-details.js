@@ -78,7 +78,7 @@ export default class ItemDetails extends Component {
 
 const ItemDetailsView = ({ item, image, context }) => {
 
-    const { name,type } = item = item
+    const { name, type } = item
 
     return (
         <React.Fragment>

@@ -9,11 +9,4 @@ import {
     StarshipList
 } from "./item-lists"
 
-export {
-    PersonDetails,
-    PlanetDetails,
-    StarshipDetails,
-    PersonList,
-    PlanetList,
-    StarshipList
-}
+export { PersonDetails, PlanetDetails, StarshipDetails, PersonList, PlanetList, StarshipList };

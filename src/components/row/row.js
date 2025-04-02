@@ -13,6 +13,7 @@ const Row = ({ left, right }) => {
         </div>
     )
 }
+
 Row.propTypes = {
     left: PropTypes.node,
     right: PropTypes.node
