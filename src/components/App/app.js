@@ -4,7 +4,7 @@ import Header from '../header'
 import RandomPlanet from '../random-planet'
 
 import './app.css'
-
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import ErrorIndicator from "../error-indicator"
 import {PersonDetails, PersonList, PlanetList, StarshipList} from "../sw-components"
 import ErrorBoundary from "../error-boundary"
@@ -56,7 +56,7 @@ export default class App extends Component {
 
                                 <Route path="/people/:id?" component={PeoplePage} exact/>
 
-                                <Route path="/planets" component={PlanetsPage} exact/>
+                                <Route path="/planets/:id?" component={PlanetsPage} exact/>
 
                                 <Route path="/starships" component={StarshipsPage} exact/>
                                 <Route path="/starships/:id" render={({ match }) => {
