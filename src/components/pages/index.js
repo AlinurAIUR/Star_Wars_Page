@@ -10,5 +10,6 @@ export {
     StarshipsPage,
     StarshipsPage,
     SecretPage,
-    LoginPage
+    LoginPage,
+    WelcomePage
 }
