@@ -23,5 +23,3 @@ const NotFoundIndicator = () => {
         </div>
     )
 }
-
-export default NotFoundIndicator
