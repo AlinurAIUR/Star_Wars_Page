@@ -13,13 +13,16 @@ const NotFoundIndicator = () => {
                 <div className="not-found-description">
                     <span className="boom">Error 404</span>
                     <span>
-                         Oops... We can't find this page :(
-                     </span>
+                        Oops... We can't find this page :(
+                    </span>
                     <span>
-                         We are sorry, but the page you tried to go to doesn't exist.
-                     </span>
+                        We are sorry, but the page you tried to go to doesn't exist.
+                    </span>
                 </div>
             </div>
         </div>
     )
 }
+
+export default NotFoundIndicator
+

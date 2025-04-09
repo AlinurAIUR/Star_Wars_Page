@@ -12,3 +12,4 @@ const StarshipsPage = ({ history }) => {
         />
     )
 }
+export default withRouter(StarshipsPage)
